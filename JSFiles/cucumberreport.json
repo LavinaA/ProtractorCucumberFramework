@@ -1,0 +1,187 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "i-am-going-to-validate-calculator-app;calculator-add-functionality-testing",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Calculator Add functionality testing",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I will navigate to Calc Site",
+            "match": {
+              "location": "..\\stepdefination\\steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 835000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I add two numbers \"3\" and \"5\"",
+            "match": {
+              "location": "..\\stepdefination\\steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 255000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the output displayed should be \"7\"",
+            "match": {
+              "location": "..\\stepdefination\\steps.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2075000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@calculatortesting",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "i-am-going-to-validate-calculator-app;calculator-add-functionality-testing-no-2",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Calculator Add functionality testing no 2",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I will navigate to \"calc\" page",
+            "match": {
+              "location": "..\\stepdefination\\steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 495000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I add two numbers \"2\" and \"7\"",
+            "match": {
+              "location": "..\\stepdefination\\steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the output displayed should be \"9\"",
+            "match": {
+              "location": "..\\stepdefination\\steps.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2019000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@calculatortesting",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "i-am-going-to-validate-calculator-app",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "I am going to validate Calculator App",
+    "tags": [],
+    "uri": "..\\features\\demo.feature"
+  }
+]
